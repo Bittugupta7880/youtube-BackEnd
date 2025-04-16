@@ -9,7 +9,7 @@ videoFile:{
     required: true
   
 },
-thumbnail:{
+thumbnail:{  
     types:String,  // cloudinary url
     required: true
 },

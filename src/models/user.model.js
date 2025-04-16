@@ -74,8 +74,7 @@ next()
 userSchema.methods.isPasswordCorrect= async function
 (password){
     //bcrypt.compare(userEnterpassword in string , encrypted password from database )
-  return await  bcrypt.compare(password , this.password)
-  
+  return await  bcrypt.compare(password , this.password)    
 }
 //build method according to purpose
 
